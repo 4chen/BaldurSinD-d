@@ -1,10 +1,10 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Movment : MonoBehaviour
 {
-    public float moveSpeed = 8f, MouseX, MouseSens;
+    public float moveSpeed = 9, MouseX, MouseSens;
     public Transform body;
     Vector3 forward, right;
     public Animator Anim;
